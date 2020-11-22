@@ -43,6 +43,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     margin-top: 42px;
+    background-color: #345f7a;
+    color: white;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
 }
 
 .account-link {
@@ -55,6 +61,20 @@
 .balance-container{
     background-color: white;
     text-align: center;
+    color: white;
+
+    .item-wrapper {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        background-color: #d7d7d7;
+        background-image: linear-gradient(147deg, #d7d7d7 0%, #345f7a 74%);
+        width: 100%;
+        height: 42px;
+        border-bottom: 2px solid white;
+    }
 }
 
 .account-list-container {
@@ -78,6 +98,7 @@
         text-align: center;
         align-items: center;
         justify-content: center;
+
     }
 
     ol:nth-child(odd) {
@@ -297,7 +318,8 @@
 
 // personal checking account
 .personal-checking-header {
-    background-color: white;
+    background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
     display: flex;
     justify-content: center;
     font-size: 42px;
