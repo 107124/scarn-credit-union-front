@@ -12,10 +12,6 @@
     "precommit": "eslint src",
     "prod": "NODE_ENV=production node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:bottega-code-school/js-builder.git"
-  },
   "keywords": [
     "es6",
     "es7",
@@ -29,10 +25,6 @@
   ],
   "author": "Kent Taylor",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bottega-code-school/js-builder/issues"
-  },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
     "@fortawesome/fontawesome-common-types": "^0.2.32",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
